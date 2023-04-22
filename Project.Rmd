@@ -1,0 +1,23 @@
+---
+title: "Group Project Final"
+author: "Group 24"
+date: "Spring 2023"
+header-includes:
+  \usepackage{amsbsy}
+output:
+  pdf_document: default
+html_document:
+  df_print: paged
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+The COVID-19 pandemic, caused by the SARS-CoV-2 virus, has had a profound impact on the lives of millions of people around the world. In Mexico, the pandemic has presented numerous challenges for the government and healthcare system, as they have sought to mitigate the virus's spread and address the resulting public health crisis. Understanding the factors that contribute to the risk of death from COVID-19 is crucial for informing public health policies and targeted interventions.
+In this report, we present an in-depth analysis of the COVID-19 dataset provided by the Mexican Government and available on Kaggle. Our primary objective is to explore various variables and identify potential correlations with COVID-19-related mortality. To achieve this, we will employ two different machine learning techniques: logistic regression and decision tree models. By comparing and contrasting the results from these models, we aim to uncover insights that can contribute to a better understanding of the pandemic's impact in Mexico and inform future strategies to reduce the risk of death.
+We will begin by cleaning and preprocessing the dataset to ensure its suitability for analysis. Next, we will conduct an exploratory data analysis (EDA) to gain a better understanding of the overall dataset structure and characteristics. Following the EDA, we will split the dataset into training and testing sets and apply both logistic regression and decision tree models to identify significant correlations between the available variables and COVID-19-related deaths. We will evaluate the performance of each model and discuss their relative strengths and limitations.
+Our analysis will focus on several key variables, including but not limited to age, sex, pre-existing health conditions, socio-economic factors, and geographical location. Through this investigation, we hope to provide valuable insights that can help the Mexican Government and healthcare providers make data-driven decisions to mitigate the impact of COVID-19 on the population and reduce mortality rates. Furthermore, the comparison of logistic regression and decision tree models will offer a better understanding of the most effective approach for predicting and addressing COVID-19-related deaths.
+
